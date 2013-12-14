@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PeriodicActivity" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="90dp"
+        android:layout_height="200dp"
+       android:background="@drawable/pink"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="50dp"
+        
+     
+        android:text="S Block Elements" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="132dp"
+         android:background="@drawable/blue"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_toRightOf="@+id/button1"
+        android:text="D Block Elements" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="120dp"
+        android:layout_height="200dp"
+         android:background="@drawable/orange"
+        android:layout_alignTop="@+id/button1"
+        android:layout_toRightOf="@+id/button2"
+         android:layout_marginRight="-10dp"
+        android:text="P Block elements" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+         android:background="@drawable/yellow"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="F Block Elements" />
+
+</RelativeLayout>
